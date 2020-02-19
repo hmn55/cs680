@@ -1,0 +1,27 @@
+Homework 4
+
+There are three classes, Ducking, Standing, Jumping.
+There is one interface, it contains the various actions that 
+Mario can take. Each action may or may not result in a state
+change. Mario is itself a singleton. And in each state class,
+th state itself should be a singleton. This allows the states
+to change dynamically.
+
+The Ducking class:
+duck{Do nothing}
+move{Do nothing}
+stand{Change state to Standing}
+jump{Do Nothing}
+
+The Standing class:
+duck{Duck}
+move{Move left or right, no state change}
+stand{Do nothing}
+jump{Change state to Jumping}
+
+The Jumping class:
+duck{Dive, no state change}
+move{Do nothing}
+stand{Do nothing}
+jump{Do Nothing}
+
